@@ -3,6 +3,8 @@
 ![alt text](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![alt text](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![alt text](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+
 ◆ 概要
 
 本プロジェクトは、日々の食材管理を効率化するためのWebアプリケーションです。
