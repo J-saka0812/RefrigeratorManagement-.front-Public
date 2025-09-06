@@ -21,10 +21,10 @@ URL: https://refrigerator-management-front-publi.vercel.app/
 ◆ スクリーンショット                                                                                                                
                                                                                                                                     
 ### ホーム画面                                                                                                                      
-![ホーム画面](images/ホームイメージ.png)                                                                                            
+![ホーム画面](docs/images/ホームイメージ.png)                                                                                            
                                                                                                                                     
 ### 画面遷移図                                                                                                                      
-![画面遷移図](images/画面遷移図.png) 
+![画面遷移図](docs/images/画面遷移図.png) 
 
 3. 制作背景
 毎日料理をする中で、「外出先から冷蔵庫の中身を確認したい」「食材の賞味期限を忘れて無駄にしてしまう」といった課題を感じていました。
