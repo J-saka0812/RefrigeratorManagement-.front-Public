@@ -15,6 +15,7 @@ IT業界へのキャリアチェンジを目指す自身のポートフォリオ
 
 アプリケーションURL
 現在、フロントエンドのホーム画面UIのみを先行して公開しています。
+
 URL: https://refrigerator-management-front-publi.vercel.app/
 ※ 現時点ではログアウトによる、画面遷移機能は動作しておりません。
 
