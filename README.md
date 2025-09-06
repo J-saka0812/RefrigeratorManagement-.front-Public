@@ -3,7 +3,7 @@
 ![alt text](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![alt text](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![alt text](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-1. 概要
+◆ 概要
 
 本プロジェクトは、日々の食材管理を効率化するためのWebアプリケーションです。
 
@@ -27,6 +27,8 @@ URL: https://refrigerator-management-front-publi.vercel.app/
 
 ※ 現時点ではログアウトによる、画面遷移機能は動作しておりません。
 
+
+
 ◆ スクリーンショット                                                                                                                
                                                                                                                                     
 ### ホーム画面                                                                                                                      
@@ -36,12 +38,16 @@ URL: https://refrigerator-management-front-publi.vercel.app/
 ![画面遷移図](docs/images/画面遷移図.png) 
 
 
-3. 制作背景
+
+◆ 制作背景
+
 毎日料理をする中で、「外出先から冷蔵庫の中身を確認したい」「食材の賞味期限を忘れて無駄にしてしまう」といった課題を感じていました。
+
 既存のサービスも参考にしつつ、「自分が本当に欲しいと思う、シンプルで直感的な管理ツールを作りたい」という思いから、本アプリケーションの開発をスタートしました。
 
 
-5. 主な機能（予定）
+
+◆ 主な機能
 
 ユーザー登録・ログイン機能
 
@@ -50,7 +56,8 @@ URL: https://refrigerator-management-front-publi.vercel.app/
 カテゴリ別での食材絞り込み機能: 実装済み
 
 
-7. 使用技術（予定）
+
+◆ 使用技術（予定）
 
 フロントエンド: React / JavaScript
 
@@ -63,7 +70,8 @@ URL: https://refrigerator-management-front-publi.vercel.app/
 CI/CD: GitHub Actions (予定)
 
 
-9. 現在の開発状況と今後の展望
+
+◆ 現在の開発状況と今後の展望
 
 ✅ フェーズ1：フロントエンドUIの実装
 
