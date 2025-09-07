@@ -41,7 +41,11 @@ export function FoodAdd({ onAdd }) {
   return (
     <div>
       <div id="addFoodPopup" className={classes.popupOverlay}>
-        <div className={`${classes.popupContent} ${isVisible ? classes.visible : ""}`}>
+        <div
+          className={`${classes.popupContent} ${
+            isVisible ? classes.visible : ""
+          }`}
+        >
           <div className={classes.header}>
             <div className={classes.headerTitleGroup}>
               <div className={classes.headerIcon}>
@@ -54,7 +58,11 @@ export function FoodAdd({ onAdd }) {
             </button>
           </div>
 
-          <form id="addFoodForm" onSubmit={submitAddFood} className={classes.form}>
+          <form
+            id="addFoodForm"
+            onSubmit={submitAddFood}
+            className={classes.form}
+          >
             {/* 食品名 */}
             <div>
               <label htmlFor="addFoodName" className={classes.formLabel}>
@@ -67,12 +75,13 @@ export function FoodAdd({ onAdd }) {
                 className={classes.formInput}
                 placeholder="例: にんじん"
                 required
+                pattern=".*[A-Za-zぁ-んァ-ヶ一-龥].*"
+                title="文字を1文字以上含めてください"
                 value={formData.name}
                 onChange={handleInputChange}
               />
             </div>
 
-            {/* カテゴリ */}
             <div>
               <label htmlFor="addCategory" className={classes.formLabel}>
                 カテゴリ <span className={classes.requiredMark}>*</span>
@@ -94,7 +103,6 @@ export function FoodAdd({ onAdd }) {
                 <option value="その他">📦 その他</option>
               </select>
             </div>
-
             {/* 数量と単位 */}
             <div className={classes.inputGrid}>
               <div>
@@ -105,8 +113,8 @@ export function FoodAdd({ onAdd }) {
                   type="number"
                   id="addQuantity"
                   name="quantity"
-                  min="0.1"
-                  step="0.1"
+                  min="0.5"
+                  step="0.5"
                   className={classes.formInput}
                   placeholder="1"
                   required
@@ -114,6 +122,7 @@ export function FoodAdd({ onAdd }) {
                   onChange={handleInputChange}
                 />
               </div>
+
               <div>
                 <label htmlFor="addUnit" className={classes.formLabel}>
                   単位 <span className={classes.requiredMark}>*</span>
@@ -151,6 +160,7 @@ export function FoodAdd({ onAdd }) {
                 name="expiryDate"
                 className={classes.formInput}
                 required
+                min={new Date().toISOString().split("T")[0]}
                 value={formData.expiryDate}
                 onChange={handleInputChange}
               />
@@ -181,7 +191,10 @@ export function FoodAdd({ onAdd }) {
               >
                 キャンセル
               </button>
-              <button type="submit" className={`${classes.button} ${classes.buttonSubmit}`}>
+              <button
+                type="submit"
+                className={`${classes.button} ${classes.buttonSubmit}`}
+              >
                 追加する
               </button>
             </div>

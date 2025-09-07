@@ -95,6 +95,8 @@ export function FoodEdit({ onEdit }) {
                 className={classes.formInput}
                 placeholder="例: にんじん"
                 required
+                pattern=".*[A-Za-zぁ-んァ-ヶ一-龥].*"
+                title="文字を1文字以上含めてください"
                 value={formData.name}
                 onChange={handleInputChange}
               />
@@ -105,6 +107,7 @@ export function FoodEdit({ onEdit }) {
               <label htmlFor="editCategory" className={classes.formLabel}>
                 カテゴリ <span className={classes.requiredMark}>*</span>
               </label>
+
               <select
                 id="editCategory"
                 name="category"
@@ -133,8 +136,8 @@ export function FoodEdit({ onEdit }) {
                   type="number"
                   id="editQuantity"
                   name="quantity"
-                  min="0.1"
-                  step="0.1"
+                  min="0.5"
+                  step="0.5"
                   className={classes.formInput}
                   placeholder="1"
                   required
@@ -179,6 +182,7 @@ export function FoodEdit({ onEdit }) {
                 name="expiryDate"
                 className={classes.formInput}
                 required
+                min={new Date().toISOString().split("T")[0]}
                 value={formData.expiryDate}
                 onChange={handleInputChange}
               />
