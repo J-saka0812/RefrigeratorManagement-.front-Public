@@ -7,6 +7,9 @@
 
 ※こちらのリポジトリは、開発中のアプリケーションからフロント部分のみ分離しておりますので、ブランチはmainのみで運用しております。
 
+フロント部分のみvercelにて公開しております。
+◆公開URL: https://refrigerator-management-front-publi.vercel.app/
+
 ## 2. 主な機能
 
 - **ユーザー認証**
