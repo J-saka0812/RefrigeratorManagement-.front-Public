@@ -54,7 +54,7 @@
 
                                                                
 ### ホーム画面                                                                                                                      
-![ホーム画面](docs/images/ホームイメージ.png)                                                                                            
+![ホーム画面](docs/images/home_image.png)                                                                                            
                                                                                                                                     
 ### 画面遷移図                                                                                                                      
 ![画面遷移図](docs/images/画面遷移図.png)  
